@@ -1,0 +1,54 @@
+*{
+  border: blue 1px dotted;
+  box-sizing: border-box;
+}
+html{
+  background-image: url('images/texas-beach.jpg');
+}
+main{
+  border: green 3px dotted;
+}
+a{
+  display: inline-block;
+  width:10%;
+  height:100%;
+}
+#logo{
+  width:100%;
+}
+header.container {
+  background-color: purple;
+  justify-content:space-between;
+}
+#banner-name {
+  display:inline-block;
+  text-align:center;
+  border: yellow 3px dotted;
+  flex-grow: 3;
+}
+#quiz-form {
+  display:flex;
+  top:35%;
+  margin-left:auto;
+  margin-right:auto;
+  align-content: center;
+}
+.container {
+  display:flex;
+  align-content: center;
+}
+span.score,
+.points,
+.questionNum {
+  margin:6px;
+}
+.start-quiz-btn{
+  display: inline-block;
+  height:175px;
+  width:275px;
+  background-color: lightblue;
+  border-radius: 10px;
+  position: relative;
+  top:125%;
+  
+}
