@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quiz Me Not!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body lang='en'>
+
+  <section class='top-section' role='banner'>
+    <header class='container' role="marquee">
+      <a href="#">
+        <input id='logo' type="image" role='button' src='images\texas-flag-logo.png'>
+      </a>
+      <h1 id='banner-name'>Quiz About Texas!</h1>
+      <span class="questionNum">Question 1 of 100</span>
+      <span class="score" role="log">25</span>
+      <span class='points'>Points!</span>
+    </header>
+  </section>
+  <main class="container" role="main">
+
+
+    <section class="question-section">
+      <form role="form" action="#" id='quiz-form'>
+              <h2 class='question'>
+                How Big is Texas Really?
+              </h2>
+        <fieldset>
+          <label class="answer-option">
+            <input type="radio" name="answer" value='Not So Big' class="question-btn">
+            <span class="answerOptionText">
+              Not So Big
+            </span>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label class="answer-option">
+            <input type="radio" name="answer" value='Pretty Big' class="question-btn">
+            <span class="answerOptionText">
+              Pretty Big
+            </span> 
+          </label>
+        </fieldset>
+        <fieldset>
+          <label class="answer-option">
+            <input type="radio" name="answer" value='Really Big' class="question-btn">
+            <span class="answerOptionText">
+              Really Big
+            </span>
+          </label>
+        </fieldset>
+        <button type='submit' class="submitBtn">Submit</button>
+      </form>
+    </section>
+
+
+  </main>
+
+</body>
+
+</html>
