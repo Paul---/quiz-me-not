@@ -1,12 +1,10 @@
 *{
-  border: blue 1px dotted;
   box-sizing: border-box;
 }
 html{
   background-image: url('images/texas-beach.jpg');
 }
 main{
-  border: green 3px dotted;
 }
 a{
   display: inline-block;
@@ -17,13 +15,11 @@ a{
   width:100%;
 }
 header.container {
-  background-color: purple;
   justify-content:space-between;
 }
 #banner-name {
   display:inline-block;
   text-align:center;
-  border: yellow 3px dotted;
   flex-grow: 3;
 }
 #quiz-form {
@@ -40,7 +36,10 @@ header.container {
 span.score,
 .points,
 .questionNum {
+  position: relative;
+  top:15px;
   margin:6px;
+  font-size: 30px;
 }
 .start-quiz-btn{
   display: inline-block;
