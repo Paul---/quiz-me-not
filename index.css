@@ -52,17 +52,32 @@ span.score,
   width: 350px;
   border-radius:10px;
 }
+
 input[type="button"]{
   font-size:25px;
+  background-color:lightblue;
 }
+
 .start-quiz-btn{
   display: inline-block;
   width:350px;
+  height:350px;
   background-color: lightblue;
   border-radius: 10px;
   position: relative;
   top:170px;
   font-size:35px;
+}
+
+.next-btn {
+  display: inline-block;
+  width: 350px;
+  height:55px;
+  background-color: rgb(215, 237, 245);
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  top: 170px;
+  font-size: 35px;
 }
 
 fieldset{
