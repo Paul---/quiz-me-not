@@ -44,16 +44,27 @@ span.score,
   margin:6px;
   font-size: 30px;
 }
+
+.feedback-btn {
+  position: relative;
+  top: 200px;
+  height: 300px;
+  width: 350px;
+  border-radius:10px;
+}
+input[type="button"]{
+  font-size:25px;
+}
 .start-quiz-btn{
   display: inline-block;
-  height:175px;
-  width:275px;
+  width:350px;
   background-color: lightblue;
   border-radius: 10px;
   position: relative;
-  top:125%;
-  
+  top:170px;
+  font-size:35px;
 }
+
 fieldset{
   display: flex;
   justify-items: center;
@@ -86,3 +97,4 @@ margin:10px;
   width:500px;
   height:75px;
 }
+
