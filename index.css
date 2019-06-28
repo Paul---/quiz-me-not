@@ -44,16 +44,42 @@ span.score,
   margin:6px;
   font-size: 30px;
 }
+
+.feedback-btn {
+  position: relative;
+  top: 200px;
+  height: 300px;
+  width: 350px;
+  border-radius:10px;
+}
+
+input[type="button"]{
+  font-size:25px;
+  background-color:lightblue;
+}
+
 .start-quiz-btn{
   display: inline-block;
-  height:175px;
-  width:275px;
+  width:350px;
+  height:350px;
   background-color: lightblue;
   border-radius: 10px;
   position: relative;
-  top:125%;
-  
+  top:170px;
+  font-size:35px;
 }
+
+.next-btn {
+  display: inline-block;
+  width: 350px;
+  height:55px;
+  background-color: rgb(215, 237, 245);
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  top: 170px;
+  font-size: 35px;
+}
+
 fieldset{
   display: flex;
   justify-items: center;
@@ -82,7 +108,34 @@ margin:10px;
 .submitBtn{
   margin-left:auto;
   margin-right: auto;
-  border-radius:5px;
-  width:500px;
+  border-radius:10px;
+  width:594px;
   height:75px;
+}
+
+.results-div {
+display:flex;
+flex-direction: column;
+background-color:lightblue;
+width:500px;
+height:300px;
+position:relative;
+top:200px;
+}
+
+.results-text{
+font-size:45px;
+display:inline-block;
+align-self: center;
+justify-self: center;
+}
+
+.restart {
+  width:500px;
+  height:55px;
+  border:none;
+  border-radius:0 0 10px 10px;
+  position:relative;
+  top:200px;
+  font-size:40px;
 }
