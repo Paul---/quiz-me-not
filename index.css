@@ -108,8 +108,34 @@ margin:10px;
 .submitBtn{
   margin-left:auto;
   margin-right: auto;
-  border-radius:5px;
-  width:500px;
+  border-radius:10px;
+  width:594px;
   height:75px;
 }
 
+.results-div {
+display:flex;
+flex-direction: column;
+background-color:lightblue;
+width:500px;
+height:300px;
+position:relative;
+top:200px;
+}
+
+.results-text{
+font-size:45px;
+display:inline-block;
+align-self: center;
+justify-self: center;
+}
+
+.restart {
+  width:500px;
+  height:55px;
+  border:none;
+  border-radius:0 0 10px 10px;
+  position:relative;
+  top:200px;
+  font-size:40px;
+}
