@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Quiz Me Not!</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-    <link rel="stylesheet" href="index.css">
-  </head>
 
-  <body lang='en'>
+<head>
+  <title>Quiz Me Not!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
 
-    <section class='top-section'role ='banner'>
-      <header class='container' role="marquee">
-        <a href="#">
-          <input id='logo' type="image" role='button' src='images\texas-flag-logo.png'>
-        </a>
-        <h1 id='banner-name'>Quiz About Texas!</h1>
-        <span class="questionNum">Question 1 of 100</span>
-        <span class="score" role="log">25</span>
-        <span class='points'>Points!</span>
+<body lang='en'>
+
+  <section class='top-section' role='banner'>
+    <header class='container' role="marquee">
+      <a href="#">
+        <input id='logo' type="image" role='button' src='images\texas-flag-logo.png'>
+      </a>
+      <h1 id='banner-name'>Quiz About Texas!</h1>
+      <span class="questionNum">Question <span class="question-num-span">0</span> / 5</span>
+      <span class="score" role="log">0 Points</span>
+    </header>
+  </section>
+
+  <main>
+    <h1 class='start-question'>Want to Test Your Knowledge of the Lone Star State?</h1>
+    <div class="app-container">
+      <header>
+        
       </header>
-    </section>
+      <button class="start-quiz-btn replaceable" type="button" role="button" autofocus>Let's Do This!</button>
+    </div>
+  </main>
 
-    <main class="container">
-       <form role="form" action="#" id='quiz-form'>
-<button class="start-quiz-btn " type="button" role="button" autofocus>Let's Do This!</button>
-       </form>
-    </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script src="data.js"></script>
+  <script src="htmlVars.js"></script>
 
-  </body>
+
+</body>
+
 </html>

@@ -1,141 +1,164 @@
-*{
+* {
   box-sizing: border-box;
 }
-html{
+
+html {
   background-image: url('images/texas-beach.jpg');
 }
-main{
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
 }
-a{
+.start-question {
+  font-size:35px;
+  text-align: center;
+  position: relative;
+  top:85px;
+}
+a {
   display: inline-block;
-  width:10%;
-  height:100%;
+  width: 10%;
+  height: 100%;
 }
-#logo{
-  width:100%;
+
+#logo {
+  width: 100%;
 }
+
 header.container {
-  border-bottom:2px grey solid;
-  justify-content:space-between;
+  border-bottom: 2px grey solid;
+  justify-content: space-between;
 }
+
 #banner-name {
-  display:inline-block;
-  text-align:center;
+  display: inline-block;
+  text-align: center;
   flex-grow: 3;
 }
+
 #quiz-form {
-  display:flex;
-  top:35%;
-  margin-left:auto;
-  margin-right:auto;
-  max-width:800px;
+  display: flex;
+  top: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
   flex-direction: column;
-  
 }
+
 .container {
-  display:flex;
+  display: flex;
   align-content: center;
 }
+
 span.score,
 .points,
 .questionNum {
   position: relative;
-  top:15px;
-  margin:6px;
+  top: 15px;
+  margin: 6px;
   font-size: 30px;
 }
 
-.feedback-btn {
+.feedback-h2 {
   position: relative;
-  top: 200px;
+  background-color: lightblue;
   height: 300px;
   width: 350px;
-  border-radius:10px;
+  border-radius: 10px;
+  font-size:35px;
+  text-align: center;
 }
 
-input[type="button"]{
-  font-size:25px;
-  background-color:lightblue;
-}
 
-.start-quiz-btn{
-  display: inline-block;
-  width:350px;
-  height:350px;
+.start-quiz-btn {
+  width: 350px;
+  height: 350px;
   background-color: lightblue;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top:170px;
-  font-size:35px;
+  top:-100px;
 }
 
 .next-btn {
   display: inline-block;
   width: 350px;
-  height:55px;
+  height: 55px;
   background-color: rgb(215, 237, 245);
   border-radius: 0 0 10px 10px;
   position: relative;
-  top: 170px;
+  top:-39px;
   font-size: 35px;
+  border:none;
 }
 
-fieldset{
+fieldset {
   display: flex;
   justify-items: center;
-  border:1px grey solid;
-  border-radius:8px;
-  background-color:lightblue;
+  border: 1px grey solid;
+  border-radius: 8px;
+  background-color: lightblue;
+  width:fit;
 }
-.question-section{
-  width:100%;
+
+.question-section {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
-.question{
+
+.question {
   font-size: 50px;
 }
 
-.answer-option{
-margin:10px;
-}
-.answerOptionText{
-  font-size: 35px;
-  position: relative;
-  left:25%;
+.answer-option {
+  margin: 10px;
+  display:flex;
+  align-items: left;
 }
 
-.submitBtn{
-  margin-left:auto;
-  margin-right: auto;
-  border-radius:10px;
-  width:594px;
-  height:75px;
+.answerOptionText {
+  font-size: 35px;
+  position: relative;
+  left:10px;
+}
+
+.submitBtn {
+  border-radius: 10px;
+  width: 100%;
+  height: 75px;
+  justify-self: center;
+  align-self: center;
 }
 
 .results-div {
-display:flex;
-flex-direction: column;
-background-color:lightblue;
-width:500px;
-height:300px;
-position:relative;
-top:200px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: 200px;
 }
 
-.results-text{
-font-size:45px;
-display:inline-block;
-align-self: center;
-justify-self: center;
+.results-text {
+  font-size: 45px;
+  display: inline-block;
+  align-self: center;
+  justify-self: center;
 }
 
 .restart {
-  width:500px;
-  height:55px;
-  border:none;
-  border-radius:0 0 10px 10px;
-  position:relative;
-  top:200px;
-  font-size:40px;
+  width: 350px;
+  height: 55px;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  top:-50px;
+  font-size: 40px;
 }
+
