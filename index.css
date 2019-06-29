@@ -12,7 +12,12 @@ html {
   align-items: center;
   height: 800px;
 }
-
+.start-question {
+  font-size:35px;
+  text-align: center;
+  position: relative;
+  top:85px;
+}
 a {
   display: inline-block;
   width: 10%;
@@ -41,7 +46,6 @@ header.container {
   margin-right: auto;
   max-width: 800px;
   flex-direction: column;
-
 }
 
 .container {
@@ -64,12 +68,10 @@ span.score,
   height: 300px;
   width: 350px;
   border-radius: 10px;
+  font-size:35px;
+  text-align: center;
 }
 
-input[type="button"] {
-  font-size: 25px;
-  background-color: lightblue;
-}
 
 .start-quiz-btn {
   width: 350px;
@@ -78,6 +80,8 @@ input[type="button"] {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  top:-100px;
 }
 
 .next-btn {
@@ -87,7 +91,7 @@ input[type="button"] {
   background-color: rgb(215, 237, 245);
   border-radius: 0 0 10px 10px;
   position: relative;
-  top:-29px;
+  top:-39px;
   font-size: 35px;
   border:none;
 }
@@ -98,6 +102,7 @@ fieldset {
   border: 1px grey solid;
   border-radius: 8px;
   background-color: lightblue;
+  width:fit;
 }
 
 .question-section {
@@ -112,17 +117,19 @@ fieldset {
 
 .answer-option {
   margin: 10px;
+  display:flex;
+  align-items: left;
 }
 
 .answerOptionText {
   font-size: 35px;
   position: relative;
-  left: 25%;
+  left:10px;
 }
 
 .submitBtn {
   border-radius: 10px;
-  width: 594px;
+  width: 100%;
   height: 75px;
   justify-self: center;
   align-self: center;
@@ -146,11 +153,12 @@ fieldset {
 }
 
 .restart {
-  width: 500px;
+  width: 350px;
   height: 55px;
   border: none;
   border-radius: 0 0 10px 10px;
   position: relative;
-  top: 200px;
+  top:-50px;
   font-size: 40px;
 }
+
